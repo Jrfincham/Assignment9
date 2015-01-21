@@ -1,4 +1,4 @@
-var items = {
+{
   "count": 19974,
   "results": [
 {
@@ -4325,3 +4325,4 @@ var items = {
   "next_page": 2
 }
 }
+
