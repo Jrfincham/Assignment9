@@ -5,6 +5,7 @@
 .header{
   width: auto;
   height: 80px;
+  border-bottom: 1px solid #DBDBD7;
 }
 
 .sidebar{
@@ -28,4 +29,76 @@
   float: left;
   margin-top: 20px;
   font-family: serif;
+}
+
+.searchbox{
+  float: left;
+  width: 250px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 21px;
+  border: 1px solid gray;
+}
+
+.searchhead{
+  background-color: #63B5CF;
+  height: 40px;
+  width: 90px;
+  margin-top: 21px;
+  padding: 0;
+  float: left;
+}
+
+.browsebord{
+  height: 35px;
+  width: 75px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 1px solid #E5E5E5;
+
+}
+
+.browse{
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 9px;
+  color: #666666;
+
+}
+
+.help{
+  float: left;
+  margin-left: 230px;
+  margin-top: 30px;
+  color: #0192B5;
+  font-size: 15px;
+}
+
+.register{
+  float: left;
+  margin-left: 25px;
+  margin-top: 30px;
+  color: #0192B5;
+  font-size: 15px;
+}
+
+.signinbord{
+  margin-top: 20px;
+  margin-left: 20px;
+  float: left;
+  height: 35px;
+  width: 60px;
+  border: 1px solid #0192B5;
+}
+
+.signin{
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin-top: 8px;
+  margin-left: 4px;
+  color: #0192B5;
 }
