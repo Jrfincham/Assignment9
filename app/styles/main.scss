@@ -2,8 +2,30 @@
 @import '../../bower_components/bourbon/dist/bourbon';
 @import '../../bower_components/neat/app/assets/stylesheets/neat';
 
-.container{
-  width: 300px;
-  height: 300px;
-  background-color: red;
+.header{
+  width: auto;
+  height: 80px;
+}
+
+.sidebar{
+  width: 200px;
+  height: 1000px;
+  margin-left: 200px;
+  float: left;
+}
+
+.maincontent{
+  width: 800px;
+  height: 1100px;
+  padding-left: 100px;
+  float: left;
+}
+
+.etsyhead{
+  margin-left: 235px;
+  font-size: 29pt;
+  color: red;
+  float: left;
+  margin-top: 20px;
+  font-family: serif;
 }
