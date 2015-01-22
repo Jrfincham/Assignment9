@@ -9,16 +9,17 @@
 }
 
 .sidebar{
-  width: 200px;
+  width: 300px;
   height: 1000px;
   margin-left: 200px;
   float: left;
 }
 
 .maincontent{
-  width: 815px;
+  width: 900px;
   height: 1100px;
   padding-left: 100px;
+  padding-right: 100px;
   float: left;
 
 }
@@ -111,8 +112,26 @@
 
 .icons{
   float: left;
-  height: 180px;
-  width: 180px;
-  border-radius: 25px;
-  padding: 25px;
+  height: 185px;
+  width: 185px;
+  overflow: hidden;
+  padding-right: 20px;
+  font-size: 8pt;
+}
+
+.icons > #titleSpan{
+  display: block;
+  width: 172px;
+  text-overflow: ellipsis;
+  height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.icons > #currencycodeSpan{
+  float: right;
+}
+
+.icons > #priceSpan{
+
 }
