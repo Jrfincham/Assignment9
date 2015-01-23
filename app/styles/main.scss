@@ -2,9 +2,14 @@
 @import '../../bower_components/bourbon/dist/bourbon';
 @import '../../bower_components/neat/app/assets/stylesheets/neat';
 
+.container{
+  background-color: #F5F5F1;
+}
+
 .header{
   width: auto;
   height: 80px;
+  background-color: white;
   border-bottom: 1px solid #DBDBD7;
 }
 
@@ -13,6 +18,112 @@
   height: 1000px;
   margin-left: 200px;
   float: left;
+  border: 1px solid gray;
+  margin-top: 45px;
+  font-size: 14px;
+}
+
+.sidebartop{
+  height: 180px;
+  width: auto;
+  border-bottom: 1px solid gray;
+}
+
+.itemtype{
+  margin-left: 36px;
+}
+
+.topBullets{
+  margin: 10px 0;
+  line-height: 25px;
+  color: #0192B5;
+}
+
+.sidebarcat{
+  height: 425px;
+  width: auto;
+  border-bottom: 1px solid gray;
+}
+
+.categories{
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.handmade{
+  position: relative;
+  top: 40px;
+  left: 20px;
+  color: #0192B5;
+}
+
+.handBullets{
+  margin-top: 65px;
+  line-height: 15px;
+  font-size: 10pt;
+  color: #0192B5;
+  list-style-type: none;
+}
+
+.vintage{
+  position: relative;
+  left: 20px;
+  color: #0192B5;
+}
+
+.vinBullets{
+  font-size: 10pt;
+  color: #0192B5;
+  line-height: 15px;
+  list-style-type: none;
+}
+
+.craft{
+  position: relative;
+  left: 20px;
+  color: #0192B5;
+}
+
+.craftBullets{
+  font-size: 10pt;
+  color: #0192B5;
+  line-height: 15px;
+  list-style-type: none;
+}
+
+.priceDiv{
+  height: 125px;
+  width: auto;
+  border-bottom: 1px solid gray;
+}
+
+.price{
+  position: relative;
+  top: 15px;
+}
+
+.priceMin{
+  position: relative;
+  height: 40px;
+  width: 65px;
+  top: 30px;
+  left: 15px;
+  border: 1px solid gray;
+}
+
+.to{
+  position: relative;
+  left: 103px;
+}
+
+.priceMax{
+  position: relative;
+  height: 40px;
+  width: 65px;
+  top: -25px;
+  left: 140px;
+  border: 1px solid gray;
 }
 
 .maincontent{
@@ -21,6 +132,7 @@
   padding-left: 100px;
   padding-right: 100px;
   float: left;
+  margin-top: 45px;
 
 }
 
@@ -38,7 +150,7 @@
   width: 250px;
   height: 40px;
   margin-left: 20px;
-  margin-top: 21px;
+  margin-top: 1px;
   border: 1px solid gray;
 }
 
@@ -105,11 +217,6 @@
   color: #0192B5;
 }
 
-.sidebar{
-  margin-top: 45px;
-  font-size: 14px;
-}
-
 .icons{
   float: left;
   height: 185px;
@@ -130,8 +237,21 @@
 
 .icons > #currencycodeSpan{
   float: right;
+  overflow: hidden;
+  color: #78C042;
+
 }
 
 .icons > #priceSpan{
+  float: right;
+  overflow: hidden;
+  color: #78C042;
+}
+
+.footer{
+  position: absolute;
+  bottom: -1555px;
+  width: 100%;
+  height: 200px;
 
 }
